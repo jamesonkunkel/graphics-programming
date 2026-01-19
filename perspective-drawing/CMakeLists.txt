@@ -3,4 +3,6 @@ project(perspective_drawing C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(perspective_drawing main.c)
+add_executable(perspective_drawing main.c
+        point_list.c
+        point_list.h)

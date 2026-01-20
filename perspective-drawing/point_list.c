@@ -51,5 +51,6 @@ void print_point_list(const PointList *list) {
     for (int i = 0; i < list->len; i++) {
         printf("Point %d: %f %f %f\n", i, list->points[i].x, list->points[i].y, list->points[i].z);
     }
+    printf("\n");
 }
 

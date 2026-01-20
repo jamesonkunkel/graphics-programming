@@ -5,6 +5,7 @@
 #ifndef PERSPECTIVE_DRAWING_POINT_LIST_H
 #define PERSPECTIVE_DRAWING_POINT_LIST_H
 
+// right now x grows from left to right, y grows from top to bottom and z grows toward the user perspective
 typedef struct Point {
     double x, y, z;
 } Point;
